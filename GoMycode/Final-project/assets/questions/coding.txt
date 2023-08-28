@@ -1,0 +1,120 @@
+LVL 1:
+
+1- What does "HTML" stand for in web development?
+a) Hyper Transfer Markup Language
+b) Hyper Text Markup Language
+c) High Tech Markup Language
+d) Hyperlink and Text Markup Language
+(Correct answer: b)
+
+2- Which programming language is commonly used for building interactive and dynamic web pages?
+a) Java
+b) Python
+c) Ruby
+d) JavaScript
+(Correct answer: d)
+
+3- In programming, what is a "variable" used for?
+a) Storing and manipulating data
+b) Displaying messages
+c) Creating loops
+d) Defining functions
+(Correct answer: a)
+
+4- What is the purpose of the "if" statement in coding?
+a) Defining a function
+b) Looping through an array
+c) Handling conditions and making decisions
+d) Importing external libraries
+(Correct answer: c)
+
+5- What does the acronym "IDE" stand for in the context of programming?
+a) Integrated Development Environment
+b) Internet Development Environment
+c) Interface Design Engine
+d) In-Depth Execution
+(Correct answer: a)
+
+LVL 2:
+
+
+1- What is the purpose of the "try" and "except" blocks in Python?
+a) To define new data types
+b) To handle errors and exceptions
+c) To create multi-threaded programs
+d) To declare global variables
+(Correct answer: b)
+
+2- How do you create a comment in Python?
+a) // This is a comment
+b) /* This is a comment */
+c) # This is a comment
+d) <!-- This is a comment -->
+(Correct answer: c)
+
+3- How do you create a comment in HTML?
+a) // This is a comment
+b) /* This is a comment */
+c) # This is a comment
+d) <!-- This is a comment -->
+(Correct answer: d)
+
+4- What is the correct way to print "Hello, World!" to the console in Java?
+a) Console.log("Hello, World!");
+b) print("Hello, World!");
+c) System.out.println("Hello, World!");
+d) println("Hello, World!");
+(Correct answer: c)
+
+5- What is the purpose of the "main" function in a C program?
+a) It is a user-defined function.
+b) It is a constructor.
+c) It is the entry point of the program.
+d) It is used to declare variables.
+(Correct answer: c)
+
+LVL 3:
+
+1- How do you handle exceptions in C?
+a) Using try-catch blocks.
+b) Using the "try" and "except" blocks.
+c) Using the "throw" statement.
+d) C does not have built-in exception handling.
+(Correct answer: d)
+
+2- What is the Python keyword used to make decisions in code by evaluating a condition?
+
+A) case
+B) switch
+C) if
+D) then
+
+Answer: C) if
+
+3- Which of the following correctly creates an empty list in Python?
+
+A) list = {}
+B) list = []
+C) list = [None]
+D) list = [0]
+
+Answer: B) list = []
+
+4- Which protocol is used for sending emails over the internet?
+
+A) FTP
+B) HTTP
+C) SMTP
+D) POP3
+
+Answer: C) SMTP
+
+5-  Binary Representation
+How many bits are in a byte?
+
+A) 4
+B) 8
+C) 16
+D) 32
+
+Answer: B) 8

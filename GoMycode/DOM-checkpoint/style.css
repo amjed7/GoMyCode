@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Roboto+Mono:ital@1&family=Roboto:wght@300&display=swap');
+
+
+body{
+    font-family: 'Play', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    background: #defcf9;
+    color: black;
+    box-sizing: border-box;
+}
+
+header{
+    background: #cadefc ;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+#logo-name{
+    color: black;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+#logo-icon{
+    cursor: pointer;
+    font-size: 23px;
+}
+
+
+
+.main{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.boxes-container{
+    width: 65%;
+    height: 990px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #cadefc;
+    margin: 2% 3%;
+    
+    
+}
+
+.product-img{
+    width: 290px;
+
+}
+
+.main h1{
+    margin-bottom: 20px;
+    margin-left: 4%;
+    font-size: 1.6em;
+}
+
+h3, .price{
+    margin-left: 20px;
+}
+
+.all-boxes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 460px;
+}
+
+.all-boxes i{
+    margin: 5px;   
+    cursor: pointer;
+    
+}
+
+
+.all-boxes:hover{
+    border: 1px solid black;
+}
+
+.sp, #sp{
+    margin-top: 55px;
+}
+
+.cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 5px;
+    width: 90px;
+}
+
+
+
+
+#cart-logo{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/*side bar*/
+
+.sideBar-container{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    width: 24%;
+    background: #cadefc;
+    height: 100vh;
+    z-index: 11;
+    visibility:hidden;
+}
+
+
+
+.sidebar {
+    position: absolute;
+    margin: 20px 105px 20px 0;
+    display: block;
+}
+
+.head{
+    margin-top: 20%;
+}
+
+#cart-items{
+    margin-top: 20px;
+}
+
+.foot{
+    padding-top: 300px;
+    align-items: end;
+}
+
+#exit-bar{
+    margin-top: 10px;
+    margin-right: 200px;
+    font-size: 20px;
+}

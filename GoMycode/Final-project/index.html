@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz wiz</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="icon" href="assets/img/dice color.png"> <!-- Favicon icon -->
+    <link rel="stylesheet" href="style.css"> <!-- External stylesheet -->
+</head>
+
+<body>
+    <header>
+        <a href="index.html"> <img src="assets/img/logo w.png" alt="logo" class="logo-img"> </a> <!-- Logo image with link to homepage -->
+        <nav class="navbar">
+            <ul>
+                <li> <a href="#">Home </a> </li>
+                <li> <a href="#categorie">Categories  <i class="fa-solid fa-arrow-down-long"></i> </a> </li> <!-- Dropdown link to categories section -->
+                <li> <a href="#about">About </a> </li>
+                <li> <a href="#contact">Contact </a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home-sec">
+        <div class="home">
+            <h1>Welcome to Quiz wiz</h1>
+            <p>Wanna test your knowledge in different horizons ? 
+                <br> Dive into Quiz wiz.
+            </p>
+            <a href="#categorie"> <button class="play-btn" >PLAY</button> </a> <!-- Button to scroll to categories section -->
+        </div>
+    </section>
+
+    <section id="Categorie-sec">
+        <a name="categorie"> <h1>Categories</h1> </a> <!-- Anchor for the Categories section -->
+        <p class="cat-txt">Chose your field wizard</p>
+
+        <div class="wrapper">
+            <!-- Coding Category Card -->
+            <div class="card" id="coding-categorie">
+                <img src="assets/img/001 (2).png" alt="coding" class="cat-img">
+                <div class="info">
+                    <p>Enhance your understanding and skills.</p>
+                    <div class="answer-options">
+                        <p>select Your difficulty:</p>
+                        <a href="categories/codingEz.html"><button >Easy</button></a>
+                        <a href="categories/codingMed.html"><button>Medium</button></a>
+                        <a href="categories/codingHard.html"><button>hard</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Geography Category Card -->
+            <div class="card" id="goegraphy-categorie">
+                <img src="assets/img/001 (1).png" alt="coding" class="cat-img">
+                <div class="info">
+                    <p class="exp">Explore the world through our geography quizzes.</p>
+                    <div class="answer-options">
+                        <p>select Your difficulty:</p>
+                        <a href="/categories/geoEz.html"><button >Easy</button></a>
+                        <a href="/categories/geoMed.html"><button>Medium</button></a>
+                        <a href="/categories/geoHard.html"><button>hard</button> </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- General Knowledge Category Card -->
+            <div class="card" id="generale">
+                <img src="assets/img/001 (3).png" alt="coding" class="cat-img">
+                <div class="info">
+                    <p>Expand your horizons with our diverse general knowledge quizzes.</p>
+                    <div class="answer-options">
+                        <p>select Your difficulty:</p>
+                        <button >Easy</button>
+                        <button>Medium</button>
+                        <button>hard</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="abt-sec">
+        <div>
+            <a name="about"> <h1>About Us</h1> </a> <!-- Anchor for the About Us section -->
+            <p>My Name is Amjad I'm a student in GoMyCode and This is my first course with them.
+                This is My mini Quiz Game "Quiz Wiz (wizard)".
+                <br> It has 3 Categories "Coding", "Geography" and "General knowledge". Each categorie have 3 difficulty Levels "Easy","Medium" and "Hard"
+                and each level contains 5 questions.
+            </p>
+        </div>
+    </section>
+
+    <section class="contact-sec">
+        <a name="contact"><h1>Contact</h1></a> <!-- Anchor for the Contact section -->
+        <p>We'd love to hear your thoughts, help you out with any issues, and explore exciting opportunities together. Your input drives Quiz Wiz forward!</p>
+        <form action="">
+            <label for="Name">Name </label>
+            <input type="text" placeholder="Full Name">
+            <br>
+
+            <label for="Email">Email</label>
+            <input type="email" placeholder="E-mail">
+            <br>
+
+            <label for="Feedback">Your Message: </label>
+            <br>
+            <textarea name="" id="" cols="20" rows="2" placeholder="send us a message"></textarea>
+        </form>
+        <button type="submit">Submit</button>
+    </section>
+
+    <script src="script.js"></script> <!-- External JavaScript file -->
+    
+    <footer>
+        <hr>
+        <p>&copy; 2023 Quiz Wiz.com</p>
+    </footer>
+</body>
+</html>

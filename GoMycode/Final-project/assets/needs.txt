@@ -1,0 +1,9 @@
+colors:
+
+https://palettes.shecodes.io/palettes/1437
+
+https://palettes.shecodes.io/palettes/1531
+
+Font:
+
+https://fonts.google.com/specimen/Play?query=play

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="https://kit.fontawesome.com/1dbdfe89cf.js" crossorigin="anonymous"></script>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <header>
+            <div class="navbar">
+                <a id = "logo-name"href="#">My shop</a>
+
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping" id="cart-logo" onclick="openBar()"></i>
+                </div>
+            </div>
+    </header>
+
+    
+
+   <!-- Cart section -->
+
+    <section class="main">
+        <h1 class="title">Our Products</h1>
+
+        <!-- Product boxes container -->
+        <div class="boxes-container">
+
+            <div id="box1" class="all-boxes">
+                <i class="fa-regular fa-heart"></i>
+                <img src="img/iphone.png" alt="iphone" class="product-img">
+                <h3>Iphone 14</h3>
+                <h4 class="price">$999.00</h4>
+                <button type="submit" onclick="addToCart('Iphone14', 999)">Add To Cart</button>
+            </div>
+
+            <div id="box2" class="all-boxes">
+                <i class="fa-regular fa-heart"></i>
+                <img src="img/ipad.png" alt="ipad" class="product-img">
+                <h3>Ipad Pro</h3>
+                <h4 class="price">$799.00</h4>
+                <button type="submit" onclick="addToCart('Ipad Pro', 799)">Add To Cart</button>
+            </div>
+
+            <div id="box3" class="all-boxes">
+                <i class="fa-regular fa-heart" ></i>
+                <img src="img/macbook.png" alt="macbook" class="product-img">
+                <h3>MacBook Air M1</h3>
+                <h4 class="price">$899.00</h4>
+                <button type="submit" onclick="addToCart('MacBook Air', 899)">Add To Cart</button>
+            </div>
+
+            <div id="box4" class="all-boxes">
+                <i class="fa-regular fa-heart"></i>
+                <img src="img/airpods max.png" alt="airpods max" class="product-img">
+                <h3>Airpods Max</h3>
+                <h4 class="price">$499.00</h4>
+                <button type="submit" onclick="addToCart('Airpods Max', 499)">Add To Cart</button>
+            </div>
+
+            <div id="box5" class="all-boxes">
+                <i class="fa-regular fa-heart"></i>
+                <img src="img/airpods pro.png" alt="airpods pro" class="product-img" id="sp">
+                <h3 class="sp">Airpods Pro</h3>
+                <h4 class="price">$199.00</h4>
+                <button type="submit" onclick="addToCart('Airpods pro', 199)">Add To Cart</button>
+            </div>
+
+            <div id="box6" class="all-boxes">
+                <i class="fa-regular fa-heart"></i>
+                <img src="img/apple watch.png" alt="apple watch" class="product-img">
+                <h3>Apple watch</h3>
+                <h4 class="price">$250.00</h4>
+                <button type="submit" onclick="addToCart('Apple watch', 250)">Add To Cart</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Cart sidebar -->
+
+    <div class="sideBar-container" id="cart-container">
+        <div class="sidebar">
+            <i class="fa-solid fa-xmark" id="exit-bar" onclick="closeBar()"></i>
+            <div class="head"><h2>My Cart</h2></div>
+            <div id="cart-items"> Your cart is empty</div>
+            <div class="foot">
+                <!-- Total price of items in the cart -->
+                <h3>Total</h3>
+                <h3 id="total-price">$ 0.00</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Include JavaScript for interactions -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,451 @@
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+
+}
+
+.everything{
+    padding: 0 200px;
+}
+
+body{
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.header1 {
+    background-color: #fff;
+    color: black;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 10;
+}
+
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.first-logo{
+    width: 100;
+    height: 35px;
+}
+
+h1{
+    position: absolute;
+    padding: 45px;
+}
+
+.main h1 {
+    color: #00b39b;
+}
+span{
+    color: grey;
+}
+
+.navbar li .abt{
+    color: #00b39b;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: inherit;
+
+}
+
+.s1{
+    margin-top: 100px;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo h1{
+    color: #00b39b;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.logo img{
+    height: 100;
+    width: 50px;
+}
+
+.par{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.p1, .p2{
+    color: grey;
+}
+
+
+.s2{
+    margin-top: 70px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1{
+    background: #00b39b;
+    width: 250px;
+    height: 340px;
+    border-radius: 20px;
+    color: white;
+}
+
+.box1 img{
+    margin: 20px 20px 10px;
+}
+
+.box1 h2{
+    margin-left: 22px;
+    font-size: 25px;
+}
+
+
+.box1 p{
+    margin: 10px 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+
+
+.options1{
+    background-color: #00b39b;
+    margin: 38px;
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+    border: 0px;
+}
+
+.options1 option{
+    background-color: #fff;
+    color: black;
+    font-size: medium;
+
+}
+
+
+/*box 2*/
+
+.box2{
+    background: #3d83df;
+    width: 250px;
+    height: 340px;
+    border-radius: 20px;
+    color: white;
+}
+
+.box2 img{
+    margin: 20px 20px 10px;
+}
+
+.box2 h2{
+    margin-left: 22px;
+    font-size: 25px;
+}
+
+
+
+.box2 p{
+    margin: 10px 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+
+.options2{
+    background-color: #3d83df;
+    margin: 38px;
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+    border: 0px;
+}
+
+.options2 option{
+    background-color: #fff;
+    color: black;
+    font-size: medium;
+
+}
+
+
+/*box 3*/
+
+.box3{
+    background: #1b2734;
+    width: 250px;
+    height: 340px;
+    border-radius: 20px;
+    color: white;
+}
+
+.box3 img{
+    margin: 20px 20px 10px;
+}
+
+.box3 h2{
+    margin-left: 22px;
+    font-size: 25px;
+}
+
+
+
+.box3 p{
+    margin: 10px 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+
+.options3{
+    background-color: #1b2734;
+    margin: 35px;
+    font-size: 17px;
+    color: white;
+    text-decoration: underline;
+    border: 0px;
+}
+
+.options3 option{
+    background-color: #fff;
+    color: black;
+    font-size: medium;
+
+}
+
+
+.s3{
+    margin-top: 40px;
+}
+
+.s3 h1{
+    float: left;
+    width: 33%;
+    font-size: 1.6em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-weight: 350;
+    line-height: 40px;
+}
+
+.brands_logos{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;
+    font-size: 0;
+    float: right;
+}
+
+.brands_logos li{
+
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 0 5px 5px;
+    width: 25%;
+}
+
+
+
+.s4{
+    width: 100%;
+    margin-top: 270px;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    background: #e5faf8;
+    height: 700px;
+    position: relative;
+}
+
+
+
+.inner-section h1{
+    color: #00b39b;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+
+.header2 p{
+    padding-top: 12%;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: .875em;
+    line-height: 1.8;
+    color: grey;
+    z-index: 20;
+}
+.header2 img{
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 350px;
+    height: 350px;
+
+}
+
+.col2{
+    display: flex;
+
+}
+
+.leader{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -490px;
+    margin-left: 50%;
+    background: white;
+    height: 250px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+h3{
+    margin-top: 10%;
+    margin-left: 40px;
+    color: #00b39b;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.leader p{
+    color: gray;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 15% 4%;
+}
+
+.patients-sec{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -490px;
+    margin-left: 50%;
+    background: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.patients-sec p{
+    color: gray;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 15% 4%;
+}
+
+
+.appointments-sec{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -850px;
+    margin-left: 70%;
+    background: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.appointments-sec p{
+    color: gray;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 15% 4%;
+}
+
+.header3{
+    display: flex;
+    justify-content: center;
+}
+
+.header3 h1{
+    color: #00b39b;
+    font-weight: 350;
+    font-size: 30px;
+    text-align: center;
+}
+
+.header3 p{
+    margin-top: 12%;
+    color: grey;
+}
+
+.offices{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.warsaw{
+    background: whitesmoke;
+    width: 311px;
+    height: 350px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.warsaw h4{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: grey;
+}
+
+.warsaw span{
+    color: white;
+    background: #3d83df;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 190px;
+    padding: 5px;
+}
+
+
+footer{
+    margin-top: 5%;
+    text-align: center;
+}
+
+hr{
+    margin: 0;
+    padding: 0;
+}

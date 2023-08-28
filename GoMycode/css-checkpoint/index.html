@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckPoint</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header section with navigation links -->
+    <header>
+        <nav>
+            <div class="bar">
+                <a href="#main">Home</a>
+                <a href="#explore">About</a>
+                <a href="#prjcts">My Projects</a>
+                <a href="#cntc">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content section -->
+    <section>
+        <div class="intro" name="main">
+            <img src="assets/img/6.png" alt="" class="coding_img">
+            <div class="text">
+                <h1>Hello World</h1>
+                <p>This is my first HTML project in GoMyCode.
+                    <br> I hope you like it
+                </p>
+                <a href="#explore"> <button>Explore More</button> </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us section -->
+    <div class="txt">
+        <a name="explore"><h1>About</h1></a>
+        <p class="txt0">
+            Hello everyone, I am Amjad, a student at GoMyCode in Tunisia. This is my first course with GoMyCode.
+            <br>For those who don't know GoMyCode it's an educational platform that offers various courses in programming, data science, artificial intelligence, and other technical fields.
+        </p>
+
+        <!-- Embedding a YouTube video -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zcTFG_F0FRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <!-- My Projects section -->
+    <div class="txt">
+        <a name="prjcts"> <h1>My Projects</h1></a>
+        <p class="txt0">As you can see, I have 3 projects: Project 1, Project 2, and Project 3</p>
+        <!-- Creating a table to display project information -->
+        <table border="2">
+            <tr>
+                <th>Project 1 </th>
+                <th>Project 2 </th>
+                <th>Project 3 </th>
+            </tr>
+
+            <tr>
+                <td>features</td>
+                <td>features</td>
+                <td>features</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Contact Us section -->
+    <div class="txt" id="last_div">
+        <a name="cntc"><h1 class="title">Contact Us</h1></a>
+        <p class="txt0">
+            If you have any questions or feedback, please feel free to get in touch with us.
+        </p>
+        <!-- Creating a form for user input -->
+        <form action="">
+            <label for="">Name</label>
+            <input type="text" placeholder="Type your name">
+            <br>
+    
+            <label>Email</label>
+            <input type="email" placeholder="Please enter your Email">
+            <br>
+    
+            <label>Your message:</label>
+            <br>
+            <textarea name="" id="" cols="50" rows="5"></textarea>
+        </form>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <!-- Adding a link to the GoMyCode Facebook page -->
+        <a href="https://www.facebook.com/gomycode/" target="_blank">
+            <img src="assets/img/Facebook-logo.png" alt="" class="fcbk">
+        </a>
+        &copy; 2023 Amjad. All rights reserved.
+    </footer>
+</body>
+</html>
